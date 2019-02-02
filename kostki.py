@@ -49,7 +49,7 @@ while True:
  
  
  
-    if zliczanie % 20 == 0: 
+    if zliczanie % 4 == 0: 
 	
         if	liczba_oczek < 7 :
 		
@@ -77,7 +77,7 @@ plik1.write(str(listaoczko[-1]))
 plik1.close()
 		
 print(listaodczyt)
-plik2.writelines(listaoczko)		
+plik2.writelines(str(listaoczko))		
 plik2.close()
  
                                    
